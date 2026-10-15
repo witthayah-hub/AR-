@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="th" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Takraw AR Motion Flashcard</title>
+    <meta name="description" content="AR Motion Capture Flashcard training game for Sepak Takraw juggling skills with real-time pose detection, biomechanical analysis, and coaching feedback." />
+    <meta property="og:title" content="Takraw AR Motion Flashcard" />
+    <meta property="og:description" content="AR Motion Capture Flashcard training game for Sepak Takraw juggling skills with real-time pose detection, biomechanical analysis, and coaching feedback." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Google Fonts for Thai & Sports typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Prompt:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- MediaPipe Libraries for Pose & Camera -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/pose/pose.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased font-['Prompt',sans-serif] selection:bg-cyan-500 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

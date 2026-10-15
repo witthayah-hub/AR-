@@ -1,0 +1,6 @@
+{
+  "name": "Takraw AR Motion Flashcard",
+  "description": "AR Motion Capture Flashcard training game for Sepak Takraw juggling skills with real-time pose detection, biomechanical analysis, and coaching feedback.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
